@@ -17,7 +17,7 @@
 		<log4j.version>2.23.1</log4j.version>
 		<lombok.version>1.18.34</lombok.version>
 		<sonar.projectKey>Maths</sonar.projectKey>
-    	<sonar.sources>src/main/java/com/jktest/Maths</sonar.sources>
+    	<sonar.sources>src/main/java</sonar.sources>
     	<sonar.tests>src/test/java/com/jktest/Maths</sonar.tests>
     	<sonar.exclusions>**/module-info.java,**/pom.xml</sonar.exclusions>
 	</properties>
