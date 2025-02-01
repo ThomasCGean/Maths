@@ -30,4 +30,10 @@ class MathsTest {
 		double quotient = test.division(10, 2);
 		assertEquals(5,quotient);
 	}
+	@Test
+	void divZeroTest() {
+		Maths test = new Maths();
+		double divZero = test.division(5,0);
+		assertEquals(-1,divZero);
+	}
 }
